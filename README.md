@@ -17,5 +17,7 @@ This project is built with a modern and efficient tech stack for a seamless, opt
 ## 📸 Preview
 
 ### Home Page
+![Website-ss](https://github.com/user-attachments/assets/573d7cf8-b201-4c4b-818c-a16301eaef72)
 
 ### Solution Page
+![Solution-ss](https://github.com/user-attachments/assets/38627d0c-f2e8-44c6-8aa3-5fbc834215e1)
