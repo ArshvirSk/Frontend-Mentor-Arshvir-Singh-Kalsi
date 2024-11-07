@@ -33,7 +33,7 @@ const UINavbar = () => {
         <div className="flex items-center gap-10 mx-5">
           <Link to="/">Home</Link>
           <Link
-            to="https://github.com/ArshvirSk/Bento-Grid-UI"
+            to="https://github.com/ArshvirSk/Frontend-Mentor-Arshvir-Singh-Kalsi/tree/main/src/pages"
             target="_blank"
             rel="noreferrer"
           >

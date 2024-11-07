@@ -6,7 +6,6 @@ import "./index.css";
 import Layout from "./layout";
 import BentoGridUI from "./pages/BentoGridUI/BentoGridUI";
 import SocialLinksUI from "./pages/SocialLinksUI/SocialLinksUI";
-import UILayout from "./UILayout";
 
 const router = createBrowserRouter([
   {
@@ -15,18 +14,12 @@ const router = createBrowserRouter([
     children: [{ path: "/", element: <App /> }],
   },
   {
-    path: "/UI",
-    element: <UILayout />,
-    children: [
-      {
-        path: "Bento-Grid-UI/",
-        element: <BentoGridUI />,
-      },
-      {
-        path: "Social-Links-UI/",
-        element: <SocialLinksUI />,
-      },
-    ],
+    path: "/Bento-Grid-UI",
+    element: <BentoGridUI />,
+  },
+  {
+    path: "/Social-Links-UI",
+    element: <SocialLinksUI />,
   },
 ]);
 
