@@ -1,4 +1,4 @@
-import AvatarImg from "./assets/avatar.jpeg";
+import AvatarImg from "./images/avatar.jpeg";
 
 const SocialLinksUI = () => {
   return (
