@@ -4,9 +4,9 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import App from "./App";
 import "./index.css";
 import Layout from "./layout";
-import BentoGridUI from "./pages/BentoGridUI";
-import SocialLinksUI from "./pages/SocialLinksUI";
 import UILayout from "./UILayout";
+import BentoGridUI from "./pages/BentoGridUI/BentoGridUI";
+import SocialLinksUI from "./pages/SocialLinksUI/SocialLinksUI";
 
 const router = createBrowserRouter([
   {

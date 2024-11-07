@@ -7,7 +7,7 @@ import {
   MultiplePlatforms,
   ScheduleToSocialMedia,
   Stars,
-} from "../assets";
+} from "./assets";
 
 const BentoGridUI = () => {
   return (
