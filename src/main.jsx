@@ -19,11 +19,11 @@ const router = createBrowserRouter([
     element: <UILayout />,
     children: [
       {
-        path: "Bento-Grid-UI",
+        path: "/Bento-Grid-UI",
         element: <BentoGridUI />,
       },
       {
-        path: "Social-Links-UI",
+        path: "/Social-Links-UI",
         element: <SocialLinksUI />,
       },
     ],
