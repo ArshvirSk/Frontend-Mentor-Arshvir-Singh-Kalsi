@@ -5,6 +5,7 @@ import App from "./App";
 import "./index.css";
 import Layout from "./layout";
 import BentoGridUI from "./pages/BentoGridUI/BentoGridUI";
+import MortrageCalculator from "./pages/MortrageRepaymentCalculator/MortrageCalculator";
 import SocialLinksUI from "./pages/SocialLinksUI/SocialLinksUI";
 
 const router = createBrowserRouter([
@@ -20,6 +21,10 @@ const router = createBrowserRouter([
   {
     path: "/Social-Links-UI",
     element: <SocialLinksUI />,
+  },
+  {
+    path: "/Mortrage-Repayment-Calculator",
+    element: <MortrageCalculator />,
   },
 ]);
 
